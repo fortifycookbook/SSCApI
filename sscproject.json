@@ -1,0 +1,77 @@
+{
+  "active": false,
+  "assignedIssuesCount": 0,
+  "attachmentsOutOfDate": true,
+  "autoPredict": false,
+  "bugTrackerEnabled": false,
+  "bugTrackerPluginId": "string",
+  "committed": false,
+  "createdBy": "string",
+  "creationDate": "2019-07-05T15:01:06.264Z",
+  "currentState": {
+    "analysisResultsExist": false,
+    "analysisUploadEnabled": false,
+    "attentionRequired": false,
+    "auditEnabled": false,
+    "batchBugSubmissionExists": false,
+    "committed": false,
+    "criticalPriorityIssueCountDelta": 0,
+    "deltaPeriod": 0,
+    "extraMessage": "string",
+    "hasCustomIssues": false,
+    "id": 0,
+    "issueCountDelta": 0,
+    "lastFprUploadDate": "2019-07-05T15:01:06.264Z",
+    "metricEvaluationDate": "2019-07-05T15:01:06.264Z",
+    "percentAuditedDelta": 0,
+    "percentCriticalPriorityIssuesAuditedDelta": 0
+  },
+  "customTagValuesAutoApply": false,
+  "description": "string",
+  "issueTemplateId": "string",
+  "issueTemplateModifiedTime": 0,
+  "issueTemplateName": "string",
+  "latestScanId": 0,
+  "loadProperties": "string",
+  "masterAttrGuid": "string",
+  "migrationVersion": 0,
+  "mode": "NONE",
+  "name": "string",
+  "obfuscatedId": "string",
+  "owner": "string",
+  "predictionPolicy": "string",
+  "project": {
+    "createdBy": "string",
+    "description": "string",
+    "issueTemplateId": "string",
+    "name": "string"
+  },
+  "refreshRequired": true,
+  "securityGroup": "string",
+  "serverVersion": 0,
+  "siteId": "string",
+  "snapshotOutOfDate": false,
+  "sourceBasePath": "string",
+  "staleIssueTemplate": false,
+  "status": "ACTIVE",
+  "tracesOutOfDate": true
+}
+
+
+Enter host password for user 'admin':
+{"data":{"remainingUsages":-1,"terminalDate":"2019-07-06T15:12:33.000+0000","description":null,"id":10,"creationDate":"2019-07-05T15:12:33.000+0000","type":"UnifiedLoginToken","token":"MDc3MmQ1NzItYjY3MC00MTZhLTk3OGUtYTg4OGUzOTJlMmUx","username":"admin"},"responseCode":201}d2:
+
+
+curl -u admin -X POST "http://localhost:8080/ssc/api/v1/tokens" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"type\": \"UnifiedLoginToken\" }"
+
+Enter host password for user 'admin':
+{"data":{"remainingUsages":-1,"terminalDate":"2019-07-06T15:12:33.000+0000","description":null,"id":10,"creationDate":"2019-07-05T15:12:33.000+0000","type":"UnifiedLoginToken","token":"MDc3MmQ1NzItYjY3MC00MTZhLTk3OGUtYTg4OGUzOTJlMmUx","username":"admin"},"responseCode":201}d2:
+
+
+
+
+
+ curl -u admin -X POST "http://localhost:8080/ssc/api/v1/tokens" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"type\": \"UnifiedToken\", \"terminalDate\": \"2017-11-29T22:40:11.000+0000\"}"
+
+
+

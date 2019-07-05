@@ -1,0 +1,20 @@
+
+Simple Curl Get Token:
+======================
+
+
+curl -u admin -X POST "http://localhost:8080/ssc/api/v1/tokens" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"type\": \"UnifiedLoginToken\" }"
+
+Enter host password for user 'admin':
+
+
+==========
+Response:
+==========
+
+{"data":{"remainingUsages":-1,"terminalDate":"2019-07-06T15:12:33.000+0000","description":null,"id":10,"creationDate":"2019-07-05T15:12:33.000+0000","type":"UnifiedLoginToken","token":"MDc3MmQ1NzItYjY3MC00MTZhLTk3OGUtYTg4OGUzOTJlMmUx","username":"admin"},"responseCode":201}d2:
+
+
+
+
+
