@@ -1,0 +1,16 @@
+        <scalar-parameter name="projectversionids" id="599">
+            <property name="valueType">static</property>
+            <property name="isRequired">false</property>
+            <property name="dataType">string</property>
+            <property name="distinct">true</property>
+            <simple-property-list name="defaultValue">
+                <value type="constant">(1,2,3,4,5,6,7,8,9)</value>
+            </simple-property-list>
+            <property name="paramType">simple</property>
+            <property name="controlType">text-box</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+        
+        https://download.eclipse.org/birt/downloads/build.php?build=R-R1-4_4_2-201502171805
