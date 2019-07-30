@@ -30,7 +30,9 @@ if len(sys.argv) > 2:
    print("===============================================================")
    print("FPR Diff(" + fprone + ")")
    print("===============================================================")
-   print(fprdiff1)
+   for path1 in fprdiff1.keys():
+     print(path1)
+   print("Total Diff: (" + str(len(fprdiff1.keys())) + ")" )
    print("===============================================================")
 
    fprdiff2 = { k : second_dict[k] for k in set(second_dict) - set(first_dict) }
@@ -38,7 +40,9 @@ if len(sys.argv) > 2:
    print("===============================================================")
    print("FPR Diff(" + fprtwo + ")")
    print("===============================================================")
-   print(fprdiff2)
+   for path2 in fprdiff2.keys():
+     print(path2)
+   print("Total Diff: (" + str(len(fprdiff2.keys())) + ")" )
    print("===============================================================")
 else:
     print("usage: fprcompare.py <FPR file > <FPR file>")
